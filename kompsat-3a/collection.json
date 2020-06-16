@@ -1,0 +1,97 @@
+{
+    "id": "kompsat-3a",
+    "stac_version": "0.8.1",
+    "description": "KOMPSAT-3A acquisitions",
+    "links": [
+        {
+            "rel": "item",
+            "href": "./item.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "KOMPSAT-3A collection",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    45.1497222222222,
+                    4.6225,
+                    45.2891666666667,
+                    4.76305555555556
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2020-05-08T10:26:49Z",
+                    "2020-05-08T10:26:50Z"
+                ]
+            ]
+        }
+    },
+    "license": "CC-BY-SA-4.0",
+    "stac_extensions": [
+        "eo"
+    ],
+    "properties": {
+        "eo:bands": [
+            {
+                "name": "B",
+                "common_name": "blue",
+                "center_wavelength": 0.49,
+                "gain": 0.0362,
+                "offset": -22.1416,
+                "mean_solar_exoatmospheric_irradiance": 2001
+            },
+            {
+                "name": "G",
+                "common_name": "green",
+                "center_wavelength": 0.559,
+                "gain": 0.0249,
+                "offset": -14.021,
+                "mean_solar_exoatmospheric_irradiance": 1875
+            },
+            {
+                "name": "R",
+                "common_name": "red",
+                "center_wavelength": 0.668,
+                "gain": 0.0229,
+                "offset": -13.0457,
+                "mean_solar_exoatmospheric_irradiance": 1525
+            },
+            {
+                "name": "N",
+                "common_name": "nir",
+                "center_wavelength": 0.844,
+                "gain": 0.013,
+                "offset": -10.2834,
+                "mean_solar_exoatmospheric_irradiance": 1027
+            },
+            {
+                "name": "P",
+                "common_name": "pan",
+                "center_wavelength": 0.675,
+                "full_width_half_max": 0.225
+            }
+        ],
+        "eo:gsd": [
+            0.54,
+            2.16
+        ],
+        "eo:platform": [
+            "kompsat-3a"
+        ],
+        "eo:instrument": "AEISS-A"
+    }
+}
