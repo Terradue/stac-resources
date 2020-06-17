@@ -114,35 +114,35 @@
         },
         "B": {
             "href": "./K3A_20200508102646_28267_00027320_L1G/K3A_20200508102646_28267_00027320_L1G_B.tif",
-            "type": "image/jp2",
+            "type": "image/tiff; application=geotiff",
             "eo:bands": [
                 0
             ]
         },
         "G": {
             "href": "./K3A_20200508102646_28267_00027320_L1G/K3A_20200508102646_28267_00027320_L1G_G.tif",
-            "type": "image/jp2",
+            "type": "image/tiff; application=geotiff",
             "eo:bands": [
                 1
             ]
         },
         "R": {
             "href": "./K3A_20200508102646_28267_00027320_L1G/K3A_20200508102646_28267_00027320_L1G_R.tif",
-            "type": "image/jp2",
+            "type": "image/tiff; application=geotiff",
             "eo:bands": [
                 2
             ]
         },
         "N": {
             "href": "./K3A_20200508102646_28267_00027320_L1G/K3A_20200508102646_28267_00027320_L1G_N.tif",
-            "type": "image/jp2",
+            "type": "image/tiff; application=geotiff",
             "eo:bands": [
                 3
             ]
         },
         "P": {
             "href": "./K3A_20200508102646_28267_00027320_L1G/K3A_20200508102646_28267_00027320_L1G_P.tif",
-            "type": "image/jp2",
+            "type": "image/tiff; application=geotiff",
             "eo:bands": [
                 4
             ]
